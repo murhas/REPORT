@@ -1,0 +1,123 @@
+@font-face {
+    font-family: abster;
+    src : url(font/abster-webfont.woff) format('woff');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+.home_bg{
+    background-image:url("images/background.jpeg");
+    width: 100%;
+    height: 840px;
+
+}
+*/
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/background.jpeg);
+    background-size: cover;
+}
+
+.container .header{
+    width: 100%;
+    height: 100px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;/*좌우 끝으로 붙여서 출력이 되게함*/
+    align-items: center;/*중앙으로 정렬하게 함*/
+}
+
+.container .header h1 a{
+    text-decoration: none;
+    color: white;
+    font-family: abster;
+    background-image: url(/images/background.jpeg);
+}
+
+.container .nav ul li{
+    display: inline-block;
+    margin:0 10px;
+}
+
+.container .nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.container .nav ul li a:hover{
+    color: red;
+}
+
+.container .title{
+    position: absolute;
+    left:50%;
+    top:20%;
+    transform: translate(-50%,-50%);
+    color:white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container .title h2{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.container .title p{
+    font-size: 22px;
+}
+/*
+.container .title button{
+    background: none;
+    border:2px solid darkseagreen;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+    outline: none;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.container .title button:hover{
+    background-color: darkslategray;
+}
+*/
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.ksimg{
+    width: 300px;
+    height: 100px;
+}
+
+.celendar{
+    position: relative;
+    left : 300px;
+    top : 200px;
+}
+
+.celendar .year{
+    background-color: wheat;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.celendar .month{
+    background-color: wheat;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.celendar .holiday{
+    color:red;
+}
