@@ -133,7 +133,7 @@ td{
 
 
 
-.report .title{
+.site .title{
     font-size: 50px;
     color: skyblue;
     top:47%;
@@ -199,7 +199,7 @@ td{
     margin-top: 10px;
   }
 
-  .report ul li a{
+  .site ul li a{
     font-size: 25px;
     text-decoration: none;
     color: pink;
