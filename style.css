@@ -131,63 +131,16 @@ td{
     background-color: bisque;
 }
 
-.report {
-    position: static;
-}
+
 
 .report .title{
     font-size: 50px;
     color: skyblue;
-    top:40%;
-    left: 6%;
-}
-
-.report .link{
+    top:47%;
+    left:10%;
     text-align: left;
-    font-size: 20px;
-    color: white;
-    left: 100px;
 }
 
-.report button{
-    width: 100px;
-    height: 50px;
-    padding: 5px 5px;
-    background-color: none;
-    border:2px solid darkseagreen;
-    color: black;
-    border-radius: 20px;
-}
-
-.report button:hover{
-    background-color: darkslategray;
-}
-
-.report .first{
-    margin: 2px;
-    color: antiquewhite;
-}
-
-
-.report .second{
-    margin: 2px;
-    color: antiquewhite;
-}
-
-.report .third{
-    margin: 2px;
-    color: antiquewhite;
-}
-
-.report .fourth{
-    margin: 2px;
-    color: antiquewhite;
-}
-
-.report .fifth{
-    margin: 2px;
-    color: antiquewhite;
-}
 
 .notepad {
     position: static;
@@ -196,7 +149,7 @@ td{
 .notepad .title{
     font-size: 50px;
     color: skyblue;
-    top:55%;
+    top:65%;
     left: 4%;
 }
 
@@ -246,3 +199,9 @@ td{
     margin-top: 10px;
   }
 
+
+  .report ul li a{
+    font-size: 25px;
+    text-decoration: none;
+    color: pink;
+}

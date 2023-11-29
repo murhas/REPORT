@@ -12,3 +12,15 @@ document.getElementById('save-memo').addEventListener('click', function () {
         memoInput.value = '';
     }
 });
+// setItem
+window.localStorage.setItem('report','테스트' );
+
+// getItem
+const report = window.localStorage.getItem('report');
+
+// 결과 출력
+//document.write(report);
+
+const first = document.createElement('first');
+first.className = 'first';
+first.textContent = report.value;
