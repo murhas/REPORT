@@ -14,7 +14,6 @@ document.getElementById('save-memo').addEventListener('click', function () {
 });
 // setItem
 window.localStorage.setItem('report','테스트' );
-
 // getItem
 const report = window.localStorage.getItem('report');
 
